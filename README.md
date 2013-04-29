@@ -17,47 +17,47 @@ To all be combined into a super base framework to kickstart any web application.
 
 ## Images
 
-*1. Circle Images* 
+**1. Circle Images**
 Attach 'image circle' to your img class for circled images
-	<img class="image circle" src"..." alt"...">
+		`<img class="image circle" src"..." alt"...">`
 	
-*2. Rounded Images* 
+**2. Rounded Images** 
 Attach 'image rounded' to your img class for a 4px rounded image
-	<img class="image rounded" src"..." alt"...">
+		`<img class="image rounded" src"..." alt"...">`
 	
-*3. Photo Images* 
+**3. Photo Images** 
 Attach 'image photo' to your img class for a drop shadowed photo image
-	<img class="image photo" src"..." alt"...">
+		`<img class="image photo" src"..." alt"...">`
 
 ## Responsive displays
 
-*1. Screen None*
+**1. Screen None**
 Will hide the div content on screen but will show on @media only screen and (max-width: 48em)  
-	<div class="screen_none">...</div>
+		`<div class="screen_none">...</div>`
 
-*2. Hide Mobile*
+**2. Hide Mobile**
 Will hide the div content on a @media only screen and (max-width: 48em) 
-	<div class="hide_mobile">...</div>
+		`<div class="hide_mobile">...</div>`
 	
 ## Layout & Alignment
 
-*1. Float Left* 
-	<div class="float_left">...</div>
+**1. Float Left** 
+		`<div class="float_left">...</div>`
 
-*2. Float Right* 
-	<div class="float_right">...</div>
+**2. Float Right** 
+		`<div class="float_right">...</div>`
 
-*3. Align Left* 
-	<div class="align_left">...</div>
+**3. Align Left** 
+		`<div class="align_left">...</div>`
 
-*4. Align Right* 
-	<div class="align_right">...</div>
+**4. Align Right** 
+		`<div class="align_right">...</div>`
 
-*5. Align Center* 
-	<div class="align_center">...</div>
+**5. Align Center**
+		`<div class="align_center">...</div>`
 
-*6. Align Justify* 
-	<div class="align_justify">...</div>
+**6. Align Justify** 
+	`<div class="align_justify">...</div>`
 	
 ## Typography
 The Typography is all based on the typeplate framework using rem values to specify the font-size. Here shows the following markup for heaidngs:
@@ -88,6 +88,5 @@ Also included are certain useful typographic elements:
 ## Icons
 The framework also includes the full list of icons created by [font awesome] (http://fortawesome.github.io/Font-Awesome/).
 
-
 # Using the CSS
-To reduce the amount of http requests try inserting all your custom css which you will build on top of the base framework under the 'Site Specific' comment within the 'base.css'.
+To reduce the amount of http requests try inserting all your custom css which you will build on top of the base framework under the `Site Specific` comment within the `base.css`.
