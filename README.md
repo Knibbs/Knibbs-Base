@@ -85,6 +85,8 @@ Also included are certain useful typographic elements:
 - Blockquotes
 - Pull Quotes
 
+These Elments are based on the typeplate framework see [how to implment them ](http://typeplate.com/).
+
 ## Icons
 The framework also includes the full list of icons created by [font awesome] (http://fortawesome.github.io/Font-Awesome/).
 
