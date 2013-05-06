@@ -2,18 +2,18 @@
 /*
 +-----------------------------------+
 | KNIBBS BASE CSS CONTENTS			|
-| 									|
-| 1		Base Styles					|
-| 2		Gumby Framework				|
-| 3		Clearfix					|
-| 4		Mobile						|
-| 5		Form						|
-| 6		Image & Video				|
-| 7		Snippets					|
-| 8		Typograhy					|
-| 9		Font Awesome				|
+| 						|
+| 1	Base Styles				|
+| 2	Gumby Framework				|
+| 3	Clearfix				|
+| 4	Mobile					|
+| 5	Form					|
+| 6	Image & Video				|
+| 7	Snippets				|
+| 8	Typograhy				|
+| 9	Font Awesome				|
 | 10	Print Styles				|
-| 11	Site Specific			|
+| 11	Site Specific				|
 +-----------------------------------+ */
 
 /*___________________________________________________________________________________________________________________________________________
@@ -28,7 +28,6 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-* html { font-size: 87.5%; }
 
 html * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
@@ -283,8 +282,7 @@ body .video { width: 100%; position: relative; height: 0; padding-bottom: 56.25%
 @media only screen and (max-width: 48em) { .hide_mobile {display:none;} .screen_none { display:block;}}
 /*___________________________________________________________________________________________________________________________________________
 7_TYPOGRAPHY_____*/
-html {font: normal 112.5%/1.65 sans-serif;}
-body { font-family: 'Cabin', Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 400; color: #444444; /* Define FONT and COLOUR */
+body { font-size: 100%;font-family: 'Cabin', Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 400; color: #444444; /* Define FONT and COLOUR */
 	-webkit-font-smoothing: antialiased; word-wrap: break-word;}
 @media only screen and (min-width: 48em) { body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; } }
 .ie9 {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }/* IE FONT FALLBACK */
@@ -308,6 +306,38 @@ h1, h2, h3, h4, h5, h6 {text-rendering: optimizeLegibility;line-height: 1;margin
 	color: #222222;}/* HEADING COLORS */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #4fa8bb; }/* HEADING LINK COLORS */
 
+h1 {
+    font-size: 3em; /* 48 / 16 */
+    line-height: 1em; /* 48 / 48 */
+    margin-bottom: .5em; /* 24 / 48 */
+}
+h2 {
+    font-size: 2.25em; /* 36 / 16 */
+    line-height: 1.333333333333333em; /* 48 / 36 */
+    margin-bottom: .6666666666666667em; /* 24 / 36 */
+}
+h3 {
+    font-size: 1.5em; /* 24 / 16 */
+    line-height: 1em; /* 24 / 24 */
+    margin-bottom: 1em; /* 24 / 24 */
+}
+h4 {
+    font-size: 1.3125em; /* 21 / 16 */
+    line-height: 1.142857142857143em; /* 24 / 21 */
+    margin-bottom: 1.142857142857143em; /* 24 / 21 */
+}
+h5 {
+    font-size: 1.125em; /* 18 / 16 */
+    line-height: 1.333333333333333em; /* 24 / 18 */
+    margin-bottom: 1.333333333333333em; /* 24 / 18 */
+}
+h6 {
+    font-size: 1em; /* 16 / 16 */
+    line-height: 1.5em; /* 24 / 16 */
+    margin-bottom: 1.5em; /* 24 / 16 */
+}
+
+
 .tera {font-size: 117px; font-size: 6.5rem; margin-bottom: 0.25385rem;}
 .giga {font-size: 90px; font-size: 5rem; margin-bottom: 0.33rem;}
 .mega {font-size: 72px; font-size: 4rem; margin-bottom: 0.4125rem;}
@@ -319,11 +349,6 @@ h4, .delta {font-size: 24px;font-size: 1.33333rem;margin-bottom: 1.2375rem;}
 h5, .epsilon {font-size: 21px;font-size: 1.16667rem;margin-bottom: 1.41429rem;}
 h6, .zeta {font-size: 18px;font-size: 1rem;margin-bottom: 1.65rem;}
 
-@media only screen and (min-width: 48em) {h1, h2, h3, h4, h5, h6 {line-height: 1.4;}
-h1 {font-size: 2.75em;}
-h2 {font-size: 2.3125em;}
-h3 {font-size: 1.6875em;}
-h4 {font-size: 1.4375em;} }
 
 /* Hyphens */
 abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var, xmp {
@@ -331,14 +356,17 @@ abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var,
 	-webkit-hyphens: none; /* Safari 5.1 thru 6, iOS 4.2 thru 6 */
 	-moz-hyphens: none; /* Firefox 16 thru 20 */
 	-ms-hyphens: none; /* IE10 */
-	-o-hyphens: none;	 /* PRESTO...haha LOL */
+	-o-hyphens: none; /* PRESTO...haha LOL */
 	hyphens: none;	 /* W3C standard */}
 
 /* Paragraphs */
-p {	margin: 0 0 1.5em;}
+p {
+    font-size: 1em; /* 16 / 16 */
+    line-height: 1.5em; /* 24 / 16 */
+    margin-bottom: 1.5em; /* 24 / 16 */
+}
 p + p {text-indent: 1.5em;margin-top: -1.5em;}
-p.into { font-size: 17.5px; font-size: 1.09375rem; margin-bottom: 18px;} /* INTRO TEXT */
-@media only screen and (min-width: 48em) {p { font-size: 15.4px; font-size: 0.9625rem; line-height: 1.85714em;} }
+p.intro { font-size: 17.5px; font-size: 1.09375rem; margin-bottom: 18px;} /* INTRO TEXT */
 
 em { font-style: italic; line-height: inherit; }
 strong, b { font-weight: 700; line-height: inherit; }
