@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Simon Knibbs -- Creative Director -- knibbs.co.uk 
+    Grant Simmonds -- Graphic & Web Designer -- @gismmo
+    Matt Jeffery -- Graphic & Web Designer -- matthewjeffery.co.uk
+    Liz Gannon -- Graphic & Web Designer
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, Concrete5

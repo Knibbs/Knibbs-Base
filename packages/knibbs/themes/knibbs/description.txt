@@ -1,0 +1,2 @@
+Knibbs Theme
+An elegant theme for concrete5.

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body { background: #FFFFFF }
+
+/* Header */
+
+/* Footer */
+
+/* General */
+
+/* Home */
+
+/* - - - - - - - - - - Breadcrumbs - - - - - - - - - - */
+#breadcrumbs { padding: 0px; margin-bottom: 10px; width: auto; font-size:13px }
+@media only screen and (max-width: 767px) { #breadcrumbs { display: none } }
+
+/* - - - - - - - - - - Remo Expand and Collapse - - - - - - - - - - */
+.mc .ccm-remo-expand-title, .mc .ccm-remo-expand-title-grey { font-size: 16px; line-height: 24px; font-family:inherit; font-style: normal; font-weight: 700; cursor: pointer }
+.mc .ccm-remo-expand-content, .mc .ccm-remo-expand-content-grey { padding: 15px 15px 5px 15px; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box }
+
+/* Arrow */
+.mc .ccm-remo-expand { margin-bottom: 10px }
+.mc .ccm-remo-expand-title { border-bottom: 1px solid #d0d1d2; padding: 10px 0px; color: #003355 }
+.mc .ccm-remo-expand-title:hover { background-color: #f4f4f4 }
+.mc .ccm-remo-expand-content { border-top: 1px solid #FFF; background-color: #f4f4f4 } 
+.mc .ccm-remo-expand-open { background: url(../img/remo-expand-arrows-grey-light-up.png) no-repeat 7px 12px; padding-left: 30px }
+.mc .ccm-remo-expand-closed { background: url(../img/remo-expand-arrows-grey-light-down.png) no-repeat 7px 12px; padding-left: 30px }
+
+/* Grey Box */
+.mc .ccm-remo-expand-title-grey { border: 1px solid #afb0b5; padding: 5px; color: #444444; text-shadow:1px 1px 0px #ffffff }
+.mc .ccm-remo-expand-title-grey:hover { background-color: #fefefe }
+.mc .ccm-remo-expand-content-grey { border-width:1px; border-top: solid #FFFFFF; border-right: solid #afb0b5; border-bottom: solid #afb0b5; border-left: solid #afb0b5; background-color: #f4f4f4 } 
+.mc .ccm-remo-expand-open-grey { background: url(../img/remo-expand-arrows-grey-up.png) no-repeat 5px 8px; padding-left: 30px }
+.mc .ccm-remo-expand-closed-grey { background: url(../img/remo-expand-arrows-grey-down.png) no-repeat 5px 8px; padding-left: 30px }
+
+.mc .ccm-remo-grey { background-color: #e0e1e3; -webkit-transition:all .5s; -o-transition-property:all; -o-transition-duration:.5s; -moz-transition-property:all; -moz-transition-duration:.5s; transition-property:all; transition-duration:.5s; }
+.mc .ccm-remo-grey:hover { background-color: #c9c9c9 }
+
+/* - - - - - - - - - - ProBlog Styling - - - - - - - - - - */
+.content-sbBlog-wrap { margin: 5px 0px 12px 0px; float: left; clear: left; width: 100% }
+.content-sbBlog-date { float: left; padding-top: 4px; padding-left: 11px; height: auto; width: 67px; background-repeat: no-repeat }
+
+.content-sbBlog-month, .content-sbBlog-day { font-family: inherit; font-weight: 700 }
+.content-sbBlog-month { color: white }
+.content-sbBlog-day { font-size: 38px; line-height: 25px; color: #FFF; padding-left: 2px; padding-top: 2px }
+ 
+.content-sbBlog-contain { width: 100% }
+
+.addthis_toolbox, addthis_blog_style { float: left; margin-top: 30px; margin-left: -11px; width: 63px }
+.content-sbBlog-commentcount { line-height: 25px; text-align: left; height: 25px; width: 200px }
+.content-sbBlog-commentcount p { margin-top: 4px }
+.content-sbBlog-contain btn { margin-top: 8px }
+.content-sbBlog-title { margin-right: 10px }
+
+.content-sbBlog-wrap .thumbnail, .content-sbBlog-wrap .thumbnail img { float: right; margin-left: 5px; margin-bottom: 2px; margin-top: 0px }
+.content-sbBlog-wrap .thumbnail img { max-width: 130px!important; height: auto }
+@media only screen and (max-width: 767px) { .content-sbBlog-wrap .thumbnail, .content-sbBlog-wrap .thumbnail img { float: none } }
+
+.content-sbBlog-post { padding: 0px 0px 10px 0px }
+.sblog-spacing { margin-left: 80px }
+.content-sbBlog-feed { padding-right: 25px; float: left; clear: left; width: 100% }
+.pagination { text-align: right; float: right }
+
+.rssfeed { width: 120px; line-height: 18px; float: left; clear: left }
+.tags a { padding: 5px; clear: both; margin: 5px 3px 5px 0px; background-color: #ccc0b4; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;}
+.chicklets { margin-bottom: 5px; padding-left: 10px!important }
+.backlink { float: right; font-size: 9px }
+
+/* - - - - - TN spacer settings - - - - - */
+.tnSpacer { margin:0; padding: 0; width: 100%; display: block; clear: both }
