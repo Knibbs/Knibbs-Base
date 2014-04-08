@@ -71,8 +71,7 @@ $thumbpath = BASE_URL.File::getRelativePathFromID($fID);
 <link rel="publisher" href=”https://plus.google.com/[Google+_Page_Profile]"/> */ ?>
 
 <?php // Grab Modernizer CDN, with a protocol relative URL; fall back to local if offline ?>
-<script>
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js';s.parentNode.insertBefore(g,s)}(document,'script'));</script>	
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>	
 </head>
 <body>
 <div class="knibbs-outer">

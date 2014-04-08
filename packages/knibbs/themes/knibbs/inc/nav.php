@@ -6,7 +6,7 @@
         <div class="nav-text">Menu</div>        
     </div>
     <a class="call-btn" href="tel:"><i class="fa fa-phone"></i> Number</a>
-    <div class="menu">
+    <div id="menu" class="menu" style="display:none;">
 	  <?php 
       $autonav = BlockType::getByHandle('autonav');
       $autonav->controller->orderBy = 'display_asc';
