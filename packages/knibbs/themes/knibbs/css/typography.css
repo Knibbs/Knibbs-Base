@@ -37,9 +37,12 @@ outline: 0; line-height: inherit; -webkit-transition: all .5s; -o-transition-pro
 .mc h1 a, .mc h2 a, .mc h3 a, .mc h4 a, .mc h5 a, .mc h6 a { color: #4fa8bb } /* HEADING LINK COLORS */ 
 
 /* Bold & Small & Italic */
-.mc em, .mc small { font-style: italic; line-height: inherit }
+.mc em { font-style: italic; line-height: inherit }
 .mc strong, .mc b { font-weight: 700; line-height: inherit }
 .mc small { font-size: 80% }
+
+.mc .uppercase { text-transform: uppercase; }
+.mc .lowercase { text-transform: lowercase; }
 
 /* Blockquotes */
 .mc blockquote, .mc .blockquote { font-size: 0.95em; line-height: 1.4em; font-weight: 400; color: #388d96; margin: 0px 0px 18px 0px; padding: 4px 20px 4px 19px; border-left: 2px solid #f1f1f2 }
